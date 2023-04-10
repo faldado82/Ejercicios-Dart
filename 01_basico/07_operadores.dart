@@ -49,10 +49,10 @@ main() {
 
   ////?? OPERADOR DE TIPO
 
-  int k = 10;
+  // int k = 10;
   String l = '10';
 
-  print(k is int); // true
+  // print(k is int); // true
   print(l is int); // false
   print(l is! int); // true, porque estoy negando el is
 }
